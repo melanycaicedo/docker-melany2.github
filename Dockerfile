@@ -2,7 +2,6 @@
 FROM tomcat
 
 
-ADD index.jsp /usr/share/tomtcat/jsp
 
 
 RUN rm -r /usr/local/tomcat/webapps
