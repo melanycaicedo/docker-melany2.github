@@ -1,12 +1,6 @@
 
-FROM tomcat
+FROM nginx:1.19-alpine
 
 
 
-
-RUN rm -r /usr/local/tomcat/webapps
-RUN mv /usr/local/tomcat/webapps.dist /usr/local/tomcat/webapps
-
-
-RUN mkdir /usr/local/tomcat/webapps/index
-
+ADD  index.jsp /root/Melany1/WebContent/webapp/index
