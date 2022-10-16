@@ -3,4 +3,4 @@ FROM tomcat
 
 
 
-ADD  index.jsp /root/Melany1/WebContent/webapp
+ADD  index.html /root/Melany1/WebContent/webapp
